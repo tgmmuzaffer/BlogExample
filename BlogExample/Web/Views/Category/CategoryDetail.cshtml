@@ -1,0 +1,30 @@
+﻿@using Web.Models
+@model Category
+<div class="p-4" style="border-radius:20px;">
+    <div class="row">
+        <div class="col-6">
+            <h2 class="text-primary">Category Detail</h2>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div>
+        <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    
+                    <th scope="col">Blog Id</th>
+                    <th scope="col">Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>@Model.BlogId</td>
+                    <td>@Model.Name</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

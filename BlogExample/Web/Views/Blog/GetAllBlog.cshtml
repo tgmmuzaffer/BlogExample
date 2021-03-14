@@ -1,0 +1,42 @@
+﻿@using Web.Models
+@model IList<Blog>
+<div class="p-4" style="border-radius:20px;">
+    <div class="row">
+        <div class="col-6">
+            <h2 class="text-primary">Blog List</h2>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div>
+        <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    
+                    <th scope="col">CategoryId</th>
+                    <th scope="col">Picture</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Writer</th>
+                    <th scope="col">Content</th>
+                    <th scope="col">#</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    
+                    <tr> 
+                        
+                        <td> @item.CategoryId</td>
+                        <td>@item.Picture</td>
+                        <td>@item.Title</td>
+                        <td>@item.Writer</td>
+                        <td>@item.Content</td>
+                        <td><a asp-controller="Blog" asp-action="BlogDetail" asp-route-id="@item.Id">Detail</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

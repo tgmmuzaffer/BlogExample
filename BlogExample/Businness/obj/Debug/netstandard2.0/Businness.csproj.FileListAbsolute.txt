@@ -1,0 +1,9 @@
+C:\Users\MONSTER\Desktop\BlogExample\Businness\bin\Debug\netstandard2.0\Businness.deps.json
+C:\Users\MONSTER\Desktop\BlogExample\Businness\bin\Debug\netstandard2.0\Businness.dll
+C:\Users\MONSTER\Desktop\BlogExample\Businness\bin\Debug\netstandard2.0\Businness.pdb
+C:\Users\MONSTER\Desktop\BlogExample\Businness\obj\Debug\netstandard2.0\Businness.csprojAssemblyReference.cache
+C:\Users\MONSTER\Desktop\BlogExample\Businness\obj\Debug\netstandard2.0\Businness.AssemblyInfoInputs.cache
+C:\Users\MONSTER\Desktop\BlogExample\Businness\obj\Debug\netstandard2.0\Businness.AssemblyInfo.cs
+C:\Users\MONSTER\Desktop\BlogExample\Businness\obj\Debug\netstandard2.0\Businness.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\Desktop\BlogExample\Businness\obj\Debug\netstandard2.0\Businness.dll
+C:\Users\MONSTER\Desktop\BlogExample\Businness\obj\Debug\netstandard2.0\Businness.pdb

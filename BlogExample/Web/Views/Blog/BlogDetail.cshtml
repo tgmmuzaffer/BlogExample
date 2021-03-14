@@ -1,0 +1,36 @@
+﻿@using Web.Models
+@model Blog
+<div class="p-4" style="border-radius:20px;">
+    <div class="row">
+        <div class="col-6">
+            <h2 class="text-primary">Blog Detail</h2>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div>
+        <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">CategoryId</th>
+                    <th scope="col">Picture</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Writer</th>
+                    <th scope="col">Content</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <th scope="row">@Model.Id</th>
+                    <td>@Model.CategoryId</td>
+                    <td>@Model.Picture</td>
+                    <td>@Model.Title</td>
+                    <td>@Model.Writer</td>
+                    <td>@Model.Content</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
